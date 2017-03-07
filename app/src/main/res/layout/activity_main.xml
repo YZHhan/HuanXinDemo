@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp"
+    android:gravity="center_horizontal"
+    android:background="#8B6E9E"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.huanxindemo.MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:src="@mipmap/ic_launcher"/>
+<LinearLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#CCE8CF"
+    >
+    <EditText
+        android:id="@+id/nameE"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:hint="print name"
+        android:textColorHint="#535353"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#CCE8CF"
+        android:layout_marginTop="10dp"
+        >
+        <EditText
+            android:id="@+id/pwdE"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:hint="print password"
+            android:textColorHint="#535353"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:gravity="center"
+            android:id="@+id/registerBtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="注册"
+            android:textSize="30sp"
+            android:layout_marginRight="20dp"
+            android:background="#ffffff"
+            android:textColor="#FFCE44"
+            />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/loginBtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="登录"
+            android:textSize="30sp"
+            android:layout_marginLeft="20dp"
+            android:background="#303F9F"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+</LinearLayout>
