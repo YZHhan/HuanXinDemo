@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.registerBtn:
-                Intent intent=new Intent(MainActivity.this,)
+
                 break;
             case R.id.loginBtn:
 
