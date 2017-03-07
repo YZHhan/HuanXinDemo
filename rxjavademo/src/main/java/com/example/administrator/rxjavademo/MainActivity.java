@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * 123
+     */
     private void sendRxjava(){
         Observer<String> observer=new Observer<String>() {
 
