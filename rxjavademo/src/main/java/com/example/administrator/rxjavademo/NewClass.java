@@ -7,6 +7,4 @@ package com.example.administrator.rxjavademo;
 public class NewClass {
 //    123
     //12
-    //12
-    //12
 }
