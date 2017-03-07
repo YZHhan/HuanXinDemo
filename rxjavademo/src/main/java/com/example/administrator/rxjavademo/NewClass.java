@@ -8,4 +8,5 @@ public class NewClass {
 //    123
     //12
     //12
+    //12
 }
